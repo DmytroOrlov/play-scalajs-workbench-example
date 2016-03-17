@@ -26,7 +26,7 @@ Test at <http://localhost:12345/target/scala-2.11/classes/index-dev.html>
 
 In Chrome, press F12 to see developer tools and navigate to the Console window which will show all the console output including compile errors.
 
-Import the `sbt` project under `workbench` into your IDE. Expermient and make changes to the client code.
+Import the `sbt` project under `workbench` into your IDE. Make changes to the client code and experiment. Note that you should eventually copy your changes to the corresponding directory under `play` (see explanation below).
 
 
 **Explanation**
