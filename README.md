@@ -24,6 +24,10 @@ sbt ~fastOptJS
 ```
 Test at <http://localhost:12345/target/scala-2.11/classes/index-dev.html>
 
+In Chrome, press F12 to see developer tools and navigate to the Console window which will show all the console output including compile errors.
+
+Import the `sbt` project under `workbench` into your IDE. Expermient and make changes to the client code.
+
 
 **Explanation**
 
@@ -40,5 +44,7 @@ The idea is to develop with both the Play server and the Workbench running and t
 Similarly, if you make changes to the shared code you will need to copy those to the other project before your app will function correctly. 
 
 Clearly this manual solution is crying out for a plugin to obviate having to copy the files around, but in practice at the moment this setup allows me to tinker endlessly with the client without interfering with the server, and still keep all the advantages of a having a Scala code-base continuous across client and server.
+
+***Note:*** in Chrome you can press F12 to see developer tools and then navigate to the Console window which will show all the console output including compile errors and reload messages.
   
 Forks, pull-requests and contact welcome. 
