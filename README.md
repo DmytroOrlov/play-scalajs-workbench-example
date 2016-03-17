@@ -1,5 +1,5 @@
 # PlayWorkbenchExample
-**Example setup showing how to use Scala.js with Play while using lihaoyi's Workbench plugin for dev-time efficiency**
+This repository contains an example setup showing how to use [Scala.js](https://www.scala-js.org/) with [Play](https://www.playframework.com/) while using lihaoyi's [Workbench plugin](https://github.com/lihaoyi/workbench) for client development efficiency.
 
 **Quick Start**
 
