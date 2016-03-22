@@ -1,7 +1,11 @@
 # Play Scala.js Workbench Example
 This repository contains an example setup showing how to use [Scala.js](https://www.scala-js.org/) with [Play](https://www.playframework.com/) while using lihaoyi's [Workbench plugin](https://github.com/lihaoyi/workbench) for client development efficiency.
 
-**Quick Start**
+**Short Explanation**
+
+This setup prevents any change you make during client development from causing a compile error on your Play server (and a consequent automatic reload of your Play server), which could otherwise slow down your client development significantly. 
+
+**Quick Start (~ 2 minutes)**
 
 It is assumed that you have `git` and `sbt` set up and on your path. If you use `activator`, just replace the term `sbt` with `activator`.
 
@@ -29,7 +33,7 @@ In Chrome, press F12 to see developer tools and navigate to the Console window w
 Import the `sbt` project under `workbench` into your IDE. Make changes to the client code and experiment. Note that you should eventually copy your changes to the corresponding directory under `play` (see explanation below).
 
 
-**Explanation**
+**Full Explanation**
 
 This git repository contains two sbt projects alongside each other, one in subdirectory `play` and one in subdirectory `workbench`.
 
